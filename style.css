@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&family=Roboto:wght@300;400;700&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(165,17,244,1) 0%, rgba(224,130,255,1) 85%, rgba(205,134,228,1) 99%, rgba(250,211,255,1) 100%);
+font-family: 'Poppins','sans-serif';
+}
+
+.container{
+    background-color: aliceblue;
+    height: 20rem;
+    width: 40rem;
+    margin-left: 29rem;
+    margin-top: 10rem;
+    opacity: 60%;
+    border-radius: 3%;
+
+}
+h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBox{
+    height: 15rem;
+    width: 25rem;
+    padding: 0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button{
+    background-color: white;
+    width: 15rem;
+    opacity: 1;
+    font-size: larger;
+}
+
