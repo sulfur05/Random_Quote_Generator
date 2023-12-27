@@ -14,4 +14,4 @@ let newQuote = ()=>{
         })
 }
 
-document.getElementsByTagName("button")[0].addEventListener("click", newQuote);
+// document.getElementsByTagName("button")[0].addEventListener("click", newQuote);
